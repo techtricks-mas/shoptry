@@ -1,12 +1,13 @@
 import React from "react";
-import ContainerLayout from "./Layouts/ContainerLayout";
 import Navbar from "./Layouts/Navbar";
+import Header from "./Layouts/Header";
 
 const RootLayout = () => {
   return (
-    <ContainerLayout>
+    <>
       <Navbar />
-    </ContainerLayout>
+      <Header />
+    </>
   );
 };
 
