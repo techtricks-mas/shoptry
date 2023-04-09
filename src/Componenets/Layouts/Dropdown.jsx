@@ -2,7 +2,7 @@ import React from "react";
 
 const Dropdown = ({ children, className, onClick, dropref }) => {
   return (
-    <div className={className} onClick={onClick} ref={dropref}>
+    <div className={`z-50 ${className}`} onClick={onClick} ref={dropref}>
       {children}
     </div>
   );
